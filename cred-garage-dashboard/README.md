@@ -193,38 +193,9 @@ AppContext
 
 ## 🚀 Deployment
 
-### Build for Production
-```bash
-npm run build
-```
+### Deploy to Netlify 
 
-### Deploy to Vercel (Recommended)
-1. **Connect Repository**
-   ```bash
-   # Install Vercel CLI
-   npm i -g vercel
-
-   # Deploy
-   vercel
-   ```
-
-2. **Environment Setup**
-   - No environment variables required for demo
-   - All data is mocked locally
-
-### Deploy to Netlify
-1. **Build Settings**
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-
-2. **Deploy**
-   ```bash
-   # Install Netlify CLI
-   npm install -g netlify-cli
-
-   # Deploy
-   netlify deploy --prod --dir=dist
-   ```
+https://glittering-lebkuchen-0b4a03.netlify.app/
 
 ## 🧪 Testing (Future Enhancement)
 
